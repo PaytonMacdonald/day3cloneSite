@@ -1,0 +1,70 @@
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+h1{
+    font-size: 48px;
+}
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+h4{
+    font-size: 18px;
+}
+
+.hook-text{
+    margin-top: 7.5vh;
+    margin-bottom: 7.5vh;
+    margin-left: 15vw;
+}
+
+.button{
+    font-size: 14px;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+    padding: 0.5rem 0.75rem;
+    border: none;
+}
+
+.button:hover {
+    background-color: black;
+  color: white;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.header-section{
+    height: 50vh;
+}
+
+.map-section{
+    height: 500px;
+}
+
+.header-image {
+    background-image: url(./assets/laptop-orange.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.map-image {
+    background-image: url(./assets/map-image.jpg);
+    background-size: cover;
+    background-position: center;
+    text-shadow: 1px 1px black;
+}
+
+.icons-big{
+    height: 15px;
+    width: 15px;
+    color: white;
+}
+
+.input-size{
+    padding: 0.5rem 0.75rem;
+}
